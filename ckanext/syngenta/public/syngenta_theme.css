@@ -1,5 +1,6 @@
 body {
   background-color: #00A0BE;
+  font-family: Arial !important;
 }
 
 .account-masthead {
@@ -119,16 +120,15 @@ width: auto !important;
 .homepage .module-search .module-content .heading {
   margin: 10px 0px 10px 0px;
   font-size: 2.1em;
-  font-weight: 100;
+  font-weight: 200;
   letter-spacing: 0.05em;
 }
 
 .homepage .module-search .module-content h5 {
   margin: 0px 0px 40px 0px;
-  font-size: 1.25em;
-  font-weight: 100;
+  font-size: 1.5em;
+  font-weight: 200;
   letter-spacing: 0.02em;
-  color: #BDBDBD;
 }
 
 .homepage .module-search .module-content, .organization-page.module-content {
