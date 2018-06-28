@@ -3,7 +3,7 @@ body {
 }
 
 .account-masthead {
-  background-color: rgb(40, 40, 40);
+  background-color: #9EDEE8;
 }
 
 .hero {
@@ -23,7 +23,7 @@ body {
 
 .navbar-inner {
   border: none;
-  background: #283858;
+  background: #00A0BE;
   border-radius: 0px;
 }
 
@@ -51,7 +51,7 @@ body {
 }
 
 .navbar .btn-navbar .icon-bar {
-  background-color: #151f31;
+  background-color: #00A0BE;
 }
 
 .navbar .nav>li>a {
@@ -75,25 +75,25 @@ width: auto !important;
 }
 
 .navbar .nav li.dropdown.open>.dropdown-toggle {
-  background-color: #283858;
+  background-color: #00A0BE;
   color: #ffffff;
 }
 
 .dropdown-menu>li>a:hover {
-  background: #283858;
+  background: #00A0BE;
 }
 
 /* Index search snippet */
 
 .homepage {
-  background-color: #121E34;
+  background-color: #00A0BE;
   color: #ffffff;
 }
 
 .homepage .module-search {
   text-align: center;
   padding: 0px;
-  background-color: #121E34;
+  background-color: #00A0BE;
   margin: 0px 0 0 0;
 }
 
@@ -105,7 +105,7 @@ width: auto !important;
   padding: 25px 100px 25px 20px;
   width: 600px;
   border: none;
-  box-shadow: 0px 0px 0px 5px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 0px 5px #00A0BE;
   border-radius: 3px;
   font-size: 24px;
   font-weight: 100;
@@ -711,7 +711,7 @@ div.sort-datasets a {
 @media (max-width: 979px) {
   .nav-collapse .nav>li>a:hover, .nav-collapse .nav>li>a:focus,
   .nav-collapse .dropdown-menu a:hover, .nav-collapse .dropdown-menu a:focus {
-    background-color: #151f31;
+    background-color: #00A0BE;
   }
   .nav-collapse .nav>li>a,
   .nav-collapse .dropdown-menu a {
@@ -721,7 +721,7 @@ div.sort-datasets a {
   }
 
   .navbar-inner{
-    background: #151f31;
+    background: #00A0BE;
   }
 
   .nav-collapse .dropdown-menu a {
@@ -884,14 +884,14 @@ div.sort-datasets a {
 }
 .btn-primary{
     color: #ffffff;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    text-shadow: 0 -1px 0 #00A0BE;
     background-color: #283858;
     background-image:none;
     border-radius: 0px !important;
     font-weight: normal;
 }
 .btn-primary:hover {
-    background-color:#187794;
+    background-color:#00A0BE;
 }
 .label {
   text-shadow:none;
