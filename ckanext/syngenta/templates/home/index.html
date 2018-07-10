@@ -3,4 +3,64 @@
 {% block primary_content %}
   {% snippet 'home/snippets/search.html'  %}
   <p class="joined-orgs-msg"><b><a href="/organization">{{ h.get_site_statistics()["organization_count"] }}</a></b> organizations or groups<br />currently sharing data</p>
+<div class="roles">
+    <h2>Predefined Categories</h2>
+    <div class="roles-container">
+      <div class="frame-round frame-round-white-bg">
+        <h2>Agriculture</h2>
+        <p>Agricultural statistics, crop calendar and farming practice</p>
+        <a class="button button-green" href="">Search</a>
+      </div>
+      <div class="roles-sample roles-sample-green-bg frame-round">
+        <h2>Environments</h2>
+        <p><a href="https://codeforafrica.org/" target="_blank">weather, soil, elevation, hydrology</a></p>
+        <a class="button button-green" href="">Search</a>
+
+      </div>
+    </div>
+    <div class="roles-container">
+      <div class="frame-round frame-round-white-bg">
+        <h2>Imagery</h2>
+        <p>Imagery including UAV</p>
+        <a class="button button-green" href="">Search</a>
+      </div>
+      <div class="roles-sample roles-sample-blue-bg frame-round">
+        <h2>Geopolitical</h2>
+        <p>Administrative divisions, regulatory zones</p>
+                <a class="button button-green" href="">Search</a>
+
+      </div>
+    </div>
+    <div class="roles-container">
+      <div class="roles-sample roles-sample-yellow-bg frame-round">
+        <h2>Services</h2>
+        <p>Micro Services</p>
+        <a class="button button-green" href="">Search</a>
+
+      </div>
+      <div class="frame-round frame-round-white-bg">
+        <h2>Syngenta</h2>
+        <p>SADI, federated fata, P&S, red, M&S/Commercial, market territories</p>
+        <a class="button button-green" href="">Search</a>
+      </div>
+    </div>
+    <div class="roles-container">
+      <div class="roles-sample roles-sample-orange-bg frame-round">
+        <h2>Grower</h2>
+        <p>Grower (FMS), SAP B2C</p>
+                <a class="button button-green" href="">Search</a>
+
+      </div>
+      <div class="frame-round frame-round-white-bg">
+
+      </div>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+  {% snippet "home/snippets/subscription.html" %}
+  <div class="collaborators">
+      <div class="partner-logos">
+          {% snippet 'home/snippets/home_partner_logos.html' %}
+      </div>
+  </div>
 {% endblock %}
