@@ -205,9 +205,10 @@ width: auto !important;
 
 div.frame-round {
   padding: 20px 5px;
-  border-radius: 25px;
+  border-radius: 50%;
   display: inline-block;
   width: 200px;
+  height: 200px;
 }
 
 div.frame-round-white-bg {
