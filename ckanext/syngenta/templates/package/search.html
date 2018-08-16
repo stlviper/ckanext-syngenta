@@ -1,10 +1,6 @@
 {% extends 'dataset-page.html' %}
 {% import 'macros/form.html' as form %}
 
-{% block secondary_content %}
-  {% snippet "spatial/snippets/spatial_query.html" %}
-{% endblock %}
-
 {% block primary_content %}
   <div class="module-content">
     {% block page_primary_action %}
@@ -34,6 +30,14 @@
         <p>{{_('Can\'t find what you are looking for?')}} <a href="/datarequest">{{_('Suggest a dataset')}}.</a></p>
         {% endif %}
       {% endblock %}
+     {% block map_search %}
+      <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#searchMapContainer">Map Search</button>
+      <div id="searchMapContainer" class="collapse">
+      <div class="searchMap" id="searchMap">
+        {% snippet "spatial/snippets/spatial_query.html", default_extent="[[18.62,-75.21], [64.92, 31.87]]" %}
+      </div>
+      </div>
+            {% endblock %}
     {% block package_search_result_list %}
       {{ h.snippet('snippets/package_list.html', packages=c.page.items) }}
     {% endblock %}
