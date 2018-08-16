@@ -935,6 +935,12 @@ div.sort-datasets a {
 .module-content #dataset-map-container {
   height: 400px !important;
 }
+.dataset-map-expanded #dataset-map {
+  position: static;
+  height: 484px !important;
+  width: 100% !important;
+  border: none !important;
+}
 .searchMap {
   position: relative;
 }
