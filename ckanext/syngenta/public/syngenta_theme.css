@@ -160,6 +160,12 @@ width: auto !important;
   text-decoration: underline;
 }
 
+.homepage .search-container{
+   padding: 20px 20px 20px 20px;
+   background-color: rgba(255, 255, 255, 0.5);
+}
+
+
 .search-form {
   border: none;
 }
@@ -200,11 +206,6 @@ width: auto !important;
   font-weight: 200;
   color: #858585;
   margin: 10px;
-}
-
-.homepage .search-container{
-   padding: 20px;
-   background-color: rgba(255, 255, 255, 0.5);
 }
 
 div.frame-round {
