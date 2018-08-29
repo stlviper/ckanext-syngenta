@@ -207,8 +207,8 @@ div.frame-round {
   padding: 20px 5px;
   border-radius: 50%;
   display: inline-block;
-  width: 200px;
-  height: 200px;
+  width: 64px;
+  height: 64px;
 }
 
 div.frame-round-white-bg {
