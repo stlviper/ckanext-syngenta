@@ -202,7 +202,7 @@ width: auto !important;
   margin: 10px;
 }
 
-div.search-container{
+.homepage .search-container{
    padding: 20px;
    background-color: rgba(255, 255, 255, 0.5);
 }
