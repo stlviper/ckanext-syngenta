@@ -162,7 +162,7 @@ width: auto !important;
 }
 
 .search-container{
-   width: 50%;
+   width: 500px;
    padding: 20px 20px 20px 20px;
    background-color: rgba(255, 255, 255, 0.5);
 }
