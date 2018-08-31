@@ -2,17 +2,17 @@
 {% set placeholder = _('Search for datasets...') %}
 
 <div class="module module-search module-narrow module-shallow">
-  <div class="search-container">
   <form class="module-content search-form" method="get" action="{% url_for controller='package', action='search' %}">
-    <h3 class="heading">DDA <span class="highlighted">GRIS</span> Catalog</h3>
-    <h5>Digital Data and Analytics Geo Reference Information Store</h5>
-    <div class="search-input control-group search-giant">
-      <input type="text" class="search" name="q" value="" autocomplete="off" placeholder="{{ placeholder }}" />
-      <button type="submit">
-        <i class="icon-search"></i>
-        <span>{{ _('Search') }}</span>
-      </button>
-    </div>
+    <div class="search-container">
+      <h3 class="heading">DDA <span class="highlighted">GRIS</span> Catalog</h3>
+      <h5>Digital Data and Analytics Geo Reference Information Store</h5>
+      <div class="search-input control-group search-giant">
+        <input type="text" class="search" name="q" value="" autocomplete="off" placeholder="{{ placeholder }}" />
+        <button type="submit">
+          <i class="icon-search"></i>
+          <span>{{ _('Search') }}</span>
+        </button>
+      </div>
+    <div>
   </form>
-  <div>
 </div>
