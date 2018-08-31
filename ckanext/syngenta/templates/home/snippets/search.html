@@ -3,6 +3,7 @@
 
 <div class="module module-search module-narrow module-shallow">
   <form class="module-content search-form" method="get" action="{% url_for controller='package', action='search' %}">
+    <div class="search-container">
       <h3 class="heading">DDA <span class="highlighted">GRIS</span> Catalog</h3>
       <h5>Digital Data and Analytics Geo Reference Information Store</h5>
       <div class="search-input control-group search-giant">
@@ -12,5 +13,6 @@
           <span>{{ _('Search') }}</span>
         </button>
       </div>
+    <div>
   </form>
 </div>

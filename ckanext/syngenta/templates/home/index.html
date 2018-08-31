@@ -2,19 +2,20 @@
 
 {% block primary_content %}
   {% snippet 'home/snippets/search.html'  %}
+  {% endblock %}
   <p class="joined-orgs-msg"><b><a href="/organization">{{ h.get_site_statistics()["organization_count"] }}</a></b> organizations or groups<br />currently sharing data</p>
 <div class="roles">
     <p>Predefined Categories</p>
     <div class="roles-container">
       <div class="row">
-        <div class="frame-round .col-">
+        <div class="frame-round .col-sm">
          <a href="/group/target-market">
           <img src="images/bulb.png" />
          </a>
             <p>Target Market</p>
             <p> </p>
         </div>
-        <div class="frame-round .col-">
+        <div class="frame-round .col-sm">
          <a href="/group/product-field-performance">
           <img src="images/bar.png" />
          </a>
@@ -22,41 +23,41 @@
             <p> </p>
         </div>
       </div>
-        <div class="frame-round .col-">
+        <div class="frame-round .col-sm">
           <a href="/group/s_agriculture">
           <img src="images/leaf.png" />
          </a>
             <p>Agriculture</p>
             <p> </p>
         </div>
-        <div class="frame-round .col-">
+        <div class="frame-round .col-sm">
            <a href="/group/s_environment">
           <img src="images/cloud.png" />
          </a>
             <p>Environment</p>
             <p> </p>
         </div>
-        <div class="frame-round .col-">
+        <div class="frame-round .col-sm">
           <a href="/group/environmental-characterization">
           <img src="images/flag.png" />
          </a>
             <p>Characterization</p>
         </div>
-        <div class="frame-round .col-">
+        <div class="frame-round .col-sm">
           <a href="/group/land-cover">
           <img src="images/tree.png" />
          </a>
             <p>Land Cover</p>
             <p> </p>
         </div>
-        <div class="frame-round .col-">
+        <div class="frame-round .col-sm">
           <a href="/group/s_administrative">
           <img src="images/world.png" />
          </a>
             <p>Administrative</p>
             <p> </p>
         </div>
-        <div class="frame-round .col-">
+        <div class="frame-round .col-sm">
           <a href="/group/base-maps">
           <img src="images/map.png" />
          </a>
