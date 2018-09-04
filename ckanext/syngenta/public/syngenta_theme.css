@@ -171,13 +171,6 @@ width: auto !important;
    background-color: rgba(255, 255, 255, 0.7);
 }
 
-div.group-link{
-  height: 64px;
-  width: 64px;
-}
-
-
-
 .search-form {
   border: none;
 }
@@ -220,11 +213,10 @@ div.group-link{
   margin: 10px;
 }
 
-div.frame-round {
-  border-radius: 50%;
+div.group-link {
   display: inline-block;
-  width: 64px;
   height: 64px;
+  width: 64px;
 }
 
 div.frame-round-white-bg {
