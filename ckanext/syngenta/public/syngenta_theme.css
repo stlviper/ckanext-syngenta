@@ -221,13 +221,10 @@ div.group-link{
 }
 
 div.frame-round {
-  padding: 20px 5px;
   border-radius: 50%;
   display: inline-block;
   width: 64px;
   height: 64px;
-  text-align: center;
-  font-size: 12px;
 }
 
 div.frame-round-white-bg {
