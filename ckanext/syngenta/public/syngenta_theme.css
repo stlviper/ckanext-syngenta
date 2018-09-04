@@ -220,6 +220,7 @@ div.frame-round {
   display: inline-block;
   width: 64px;
   height: 64px;
+  text-align: center;
   font-size: 12px;
 }
 
