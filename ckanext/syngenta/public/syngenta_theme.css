@@ -171,7 +171,7 @@ width: auto !important;
    background-color: rgba(255, 255, 255, 0.7);
 }
 
-.group-link{
+div.group-link{
   height: 64px;
   width: 64px;
 }
