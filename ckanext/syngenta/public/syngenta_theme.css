@@ -215,6 +215,7 @@ width: auto !important;
 
 div.group-link {
   height: 64px;
+  display: inline-block;
   width: 64px;
 }
 
